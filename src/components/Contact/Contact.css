@@ -1,0 +1,69 @@
+.contact-header-area {
+    padding-top: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: #f4fbf6;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.contact-header-image {
+    text-align: end;
+    position: relative;
+    right: -60px;
+}
+.contact-header-area ol li {
+    display: inline-block;
+    color: #f79220 !important;
+    margin-right: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.contact-header-area ol li a {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+.icon-con {
+    height: 70px;
+    width: 70px;
+    line-height: 62px;
+    font-size: 30px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #e5e5e5;
+    background: #f79220;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 25px;
+    transition: all ease 0.5s;
+}
+.contact-cards h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: #2c2c2c;
+}
+.contact-cards p {
+    text-align: center;
+}
+.section-title {
+    max-width: 660px;
+    margin: auto auto 40px auto;
+    text-align: center;
+}
+.section-title span {
+    color: #f79220;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+}
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.contact-form {
+    max-width: 860px;
+    margin: auto;
+}

@@ -1,0 +1,10 @@
+.default-btn {
+    width: 100%;
+    background-color: #f79220 !important;
+    border: 1px solid #f79220 !important;
+}
+.default-btn.active {
+    background-color: #f79220;
+    color: #ffffff;
+    border-color: #f79220;
+}

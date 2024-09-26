@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store/store';
+import './App.css'
 import Weather from './components/weather';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
