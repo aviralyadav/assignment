@@ -1,0 +1,36 @@
+.cont-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tob-header-area {
+    background-color: #000908;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 15px;
+}
+.tob-header-area .container-fluid {
+    max-width: 1520px !important;
+}
+.heder-right-content {
+    text-align: end;
+}
+.heder-right-content .social-content ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.heder-right-content .social-content ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.heder-right-content .social-content ul li a {
+    color: #ffffff;
+    height: 35px;
+    width: 35px;
+    line-height: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    transition: all ease 0.5s;
+}

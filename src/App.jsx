@@ -13,20 +13,28 @@ import Services from './components/Services/Services';
 import Footer from './components/Footer/Footer';
 import { Container } from '@mui/material';
 import NotFound from './components/NotFound/NotFound';
+import Career from './components/Career/Career';
+import Gallery from './components/Gallery/Gallery';
+import CVUpload from './components/CVUpload/CVUpload';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
   return (
     <Provider store={store}>
       <Router>
       <Header />
-      <Container sx={{ mt: 5 }}>
+      <div sx={{ mt: 5 }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/cvupload" element={<CVUpload />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </Container>
+      </div>
       <Footer />
     </Router>
       {/* <Navbar /> */}

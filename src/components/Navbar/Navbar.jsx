@@ -9,6 +9,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import Logo from '../../assets/images/logo.png'
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -22,16 +23,20 @@ const Navbar = () => {
   };
 
   const menuItems = [
-    { text: 'Home', path: '/' },
+    // { text: 'Home', path: '/' },
     { text: 'About', path: '/about' },
     { text: 'Services', path: '/services' },
+    { text: 'Career', path: '/career' },
+    { text: 'CV Upload', path: '/cvupload' },
+    { text: 'Gallery', path: '/gallery' },
+    { text: 'Contact', path: '/contact' },
   ];
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" classes={{root: 'bg-color-hdr'}} style={{ background: 'linear-gradient(45deg, white 15%, #008080)'}}>
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          MyApp
+        <Link to={'/'}><img width="12%" src={Logo} /></Link>
         </Typography>
         <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
           {menuItems.map((item) => (
